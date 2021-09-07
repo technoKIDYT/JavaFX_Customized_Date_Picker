@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="600.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 45px; -fx-border-radius: 45px;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <VBox alignment="CENTER" layoutX="127.0" layoutY="57.0" prefHeight="200.0" prefWidth="100.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label text="CHOOSE DATE">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="25.0" />
+               </font>
+            </Label>
+            <Line endX="500.0" fill="#c6c6c6" startX="-100.0" stroke="#d3d3d3" />
+            <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0" spacing="75.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Label fx:id="lblPrevYear2" opacity="0.5" text="2018">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblPrevYear1" text="2019" textFill="#6f6f6f">
+                           <font>
+                              <Font name="Berlin Sans FB" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Label fx:id="lblPrevMM2" opacity="0.5" text="December">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblPrevMM1" text="November" textFill="#6f6f6f">
+                           <font>
+                              <Font name="Berlin Sans FB" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Label fx:id="lblPrevDate2" opacity="0.5" text="26">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblPrevDate1" text="25" textFill="#6f6f6f">
+                           <font>
+                              <Font name="Berlin Sans FB" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <Line endX="500.0" fill="#c6c6c6" startX="-100.0" stroke="#d3d3d3" />
+            <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0" spacing="25.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <TextField fx:id="inpYY" alignment="CENTER" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #FFFFFF; -fx-text-fill: #5F57AE;" text="2021">
+                           <font>
+                              <Font name="Berlin Sans FB" size="25.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="inpMM" alignment="CENTER" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #FFFFFF; -fx-text-fill: #5F57AE;" text="October">
+                           <font>
+                              <Font name="Berlin Sans FB" size="25.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <TextField fx:id="inpDD" alignment="CENTER" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #FFFFFF; -fx-text-fill: #5F57AE;" text="24">
+                           <font>
+                              <Font name="Berlin Sans FB" size="25.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <Line endX="500.0" fill="#c6c6c6" startX="-100.0" stroke="#d3d3d3" />
+            <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0" spacing="75.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Label fx:id="lblNextYear1" text="2019" textFill="#6f6f6f">
+                           <font>
+                              <Font name="Berlin Sans FB" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblNextYear2" opacity="0.5" text="2018">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Label fx:id="lblNextMM1" text="November" textFill="#6f6f6f">
+                           <font>
+                              <Font name="Berlin Sans FB" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblNextMM2" opacity="0.5" text="December">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                     <children>
+                        <Label fx:id="lblNextDate1" text="25" textFill="#6f6f6f">
+                           <font>
+                              <Font name="Berlin Sans FB" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblNextDate2" opacity="0.5" text="26">
+                           <font>
+                              <Font name="Berlin Sans FB" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="btnDone" alignment="CENTER" mnemonicParsing="false" prefHeight="50.0" prefWidth="450.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 45px; -fx-border-radius: 45px; -fx-border-color: #303030; -fx-border-width: 0.2px;" text="Done">
+                     <font>
+                        <Font name="Berlin Sans FB Bold" size="25.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

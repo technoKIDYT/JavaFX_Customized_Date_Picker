@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="barcodes-7.1.12">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/externalJars/barcodes-7.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalJars/commons-io-2.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalJars/commons-lang3-3.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalJars/forms-7.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalJars/io-7.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalJars/jfoenix-9.0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalJars/kernel-7.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalJars/layout-7.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalJars/log4j-over-slf4j-1.7.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalJars/mysql-connector-java-8.0.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalJars/pdfa-7.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalJars/sign-7.1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/externalJars/slf4j-api-1.7.30.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
